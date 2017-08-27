@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    id          = "ar.com.ingverger.allstars"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+	<!-- versionCode is optional and Android only -->
+
+  <name>SUMADO</name>
+
+  <description>
+	  All the stars es una aplicacion para testear Google APIs
+  </description>
+
+  <author href="http://www.ingverger.com.ar" email="ingverger@gmail.com">
+      Guillermo Verger
+  </author>
+
+  <platform name="android" />
+  <icon src="icon.png" />
+  <splash src="splash.png" />
+
+    <platform name="android">
+        <icon   src="pgs/res/games_controller_white_100.png" />
+        <icon   src="google-logo-white.png" />
+        <icon   src="Roboto-Light.ttf" />
+        <icon   src="Roboto-Regular.ttf" />
+    </platform>
+
+
+</widget>
