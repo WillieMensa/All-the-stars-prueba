@@ -1,8 +1,14 @@
 # Collect All the Stars
+# Junta todas la estrellas
 
 A sample application that demonstrates a simple case of loading and saving
 a user's information to the cloud. Also demonstrates conflict management.
 Works with the corresponding applications available for iOS and Android.
+
+Una aplicación que demuestra un caso simple de carga y almacenamiento de información de usuario en la nube. 
+También muestra el manejo de conflictos.
+Funciona con las aplicaciones correspondientes disponibles para iOS y Android.
+
 
 ## A note on the cloud save conflict resolution logic
 
