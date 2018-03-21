@@ -5,6 +5,7 @@ A sample application that demonstrates a simple case of loading and saving
 a user's information to the cloud. Also demonstrates conflict management.
 Works with the corresponding applications available for iOS and Android.
 
+Carga y almacenamiento de información de usuario
 Una aplicación que demuestra un caso simple de carga y almacenamiento de información de usuario en la nube. 
 También muestra el manejo de conflictos.
 Funciona con las aplicaciones correspondientes disponibles para iOS y Android.

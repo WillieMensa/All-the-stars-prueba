@@ -2,11 +2,11 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     id          = "ar.com.ingverger.allstars"
     versionCode = "10"
-    version     = "1.0.0" >
+    version     = "1.0.1" >
 
 	<!-- versionCode is optional and Android only -->
 
-  <name>SUMADO</name>
+  <name>All the Stars Test</name>
 
   <description>
 	  All the stars es una aplicacion para testear Google APIs
