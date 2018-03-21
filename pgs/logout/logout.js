@@ -42,14 +42,14 @@ function logout_() {
         authToken.access_token;
     xhr.onreadystatechange = function() {
       if (xhr.readyState === 4) {
-        console.log('Logout successful!');
+        //	console.log('Logout successful!');
         chrome.identity.removeCachedAuthToken(
             {token: authToken.access_token},
             resolve);
         window.close();
       }
     };
-    console.log('Sending logout request');
+    //	console.log('Sending logout request');
     xhr.open("GET", url);
     xhr.send(null);
   });

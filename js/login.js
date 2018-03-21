@@ -41,12 +41,12 @@ login.init = function() {
 };
 
 login.handleAuthResult = function(auth) {
-  console.log('We are in handle auth result');
+  //	console.log('We are in handle auth result');
   if (chrome.runtime.lastError) {
     console.error(chrome.runtime.lastError.message);
   }
   if (auth) {
-    console.log('Hooray! You\'re logged in!');
+    //	console.log('Hooray! You\'re logged in!');
     // Show the PGS splash screen.
     login.authToken = auth;
     pgs.showSplashscreen();
@@ -60,7 +60,7 @@ login.handleAuthResult = function(auth) {
 };
 
 login.trySilentAuth = function() {
-  console.log('Trying silent auth');
+  //	console.log('Trying silent auth');
   gapi.auth.authorize(
       {
         client_id: login.clientId,

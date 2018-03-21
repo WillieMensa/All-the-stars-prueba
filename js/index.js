@@ -36,6 +36,6 @@ window.addEventListener('load', function() {
 
 window.gapiIsLoaded = function() {
 // Log in once the gapi code loads.
-  console.log("Ready to init");
+  //	console.log("Ready to init");
   login.init();
 };

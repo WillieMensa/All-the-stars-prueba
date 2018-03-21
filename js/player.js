@@ -34,13 +34,13 @@ player.loadLocalPlayer = function() {
     gapi.client.request({
       path: login.basePath + '/players/me',
       callback: function(data) {
-        console.log('This is who you are ', data);
+        //	console.log('This is who you are ', data);
         $('#welcome #message').text('Welcome, ' + data.displayName + '!');
         $('#logoutLink').show();
         player.displayName = data.displayName;
         player.profileUrl = data.avatarImageUrl;
         player.userId = data.playerId;
-        console.log('This is the player object', player);
+        //	console.log('This is the player object', player);
         resolve();
       }
     });
