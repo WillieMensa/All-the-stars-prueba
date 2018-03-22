@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     id          = "ar.com.ingverger.allstars"
-    versionCode = "10"
-    version     = "1.0.1" >
+    versionCode = "11"
+    version     = "1.0.2" >
 
 	<!-- versionCode is optional and Android only -->
 
@@ -13,7 +13,7 @@
   </description>
 
   <author href="http://www.ingverger.com.ar" email="ingverger@gmail.com">
-      Guillermo Verger
+      Willie Verger Juegos de Ingenio
   </author>
 
   <platform name="android" />

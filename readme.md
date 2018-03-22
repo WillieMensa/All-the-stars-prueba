@@ -1,6 +1,7 @@
 # Collect All the Stars
 # Junta todas la estrellas
 
+
 A sample application that demonstrates a simple case of loading and saving
 a user's information to the cloud. Also demonstrates conflict management.
 Works with the corresponding applications available for iOS and Android.
