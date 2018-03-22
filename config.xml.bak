@@ -27,6 +27,5 @@
         <icon   src="Roboto-Regular.ttf" />
     </platform>
 
-	<application android:debuggable="false" />
 
 </widget>
