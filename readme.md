@@ -1,6 +1,7 @@
 # Collect All the Stars
 # Junta todas la estrellas
 
+22/3/2018 - Version de prueba 0322D - Trabajando en branch eliminando-logs
 22/3/2018 - Version de prueba 0322c - Trabajando en branch eliminando-logs
 
 A sample application that demonstrates a simple case of loading and saving

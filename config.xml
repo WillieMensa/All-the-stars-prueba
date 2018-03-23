@@ -18,8 +18,6 @@
 	</author>
 
     <platform name="android">
-		<icon src="icon.png" />
-		<splash src="splash.png" />
         <allow-intent href="market:*" />
 		<icon   src="pgs/res/games_controller_white_100.png" />
 		<icon   src="google-logo-white.png" />
