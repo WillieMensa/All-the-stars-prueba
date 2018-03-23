@@ -16,7 +16,6 @@
       Willie Verger Juegos de Ingenio
   </author>
 
-  <platform name="android" />
   <icon src="icon.png" />
   <splash src="splash.png" />
 
