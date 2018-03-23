@@ -1,6 +1,7 @@
 # Collect All the Stars
 # Junta todas la estrellas
 
+22/3/2018 - Version de prueba 0322c - Trabajando en branch eliminando-logs
 
 A sample application that demonstrates a simple case of loading and saving
 a user's information to the cloud. Also demonstrates conflict management.
