@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
     id          = "ar.com.ingverger.allstars"
     versionCode = "11"
     version     = "1.0.2" >
@@ -12,21 +13,19 @@
 	  All the stars es una aplicacion para testear Google APIs
   </description>
 
-  <author href="http://www.ingverger.com.ar" email="ingverger@gmail.com">
-      Willie Verger Juegos de Ingenio
-  </author>
+	<author href="http://www.ingverger.com.ar" email="ingverger@gmail.com" >
+		Willie Verger Juegos de Ingenio
+	</author>
 
-  <platform name="android" />
-  <icon src="icon.png" />
-  <splash src="splash.png" />
+	<icon src="icon.png" />
+	<splash src="splash.png" />
 
     <platform name="android">
-        <icon   src="pgs/res/games_controller_white_100.png" />
-        <icon   src="google-logo-white.png" />
-        <icon   src="Roboto-Light.ttf" />
-        <icon   src="Roboto-Regular.ttf" />
+        <allow-intent href="market:*" />
+		<icon   src="pgs/res/games_controller_white_100.png" />
+		<icon   src="google-logo-white.png" />
+		<icon   src="Roboto-Light.ttf" />
+		<icon   src="Roboto-Regular.ttf" />
     </platform>
-
-	<application android:debuggable="false" />
 
 </widget>
